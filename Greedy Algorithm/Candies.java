@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Candies {
-    // To calculate number of candies
     public int candy(int[] ratings) {
         int n = ratings.length;
         if (n == 0)
@@ -35,8 +34,6 @@ public class Candies {
     public static void main(String[] args) {
         Candies sol = new Candies();
         int[] ratings = { 1, 0, 2 };
-
-        // Creating an instance of Candy class
         int result = sol.candy(ratings);
 
         System.out.println("Minimum candies required: " + result);
