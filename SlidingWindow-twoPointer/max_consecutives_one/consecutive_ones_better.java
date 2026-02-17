@@ -1,5 +1,5 @@
 
-public class consecutive_ones_optimal {
+public class consecutive_ones_better {
     public int longestOnes(int[] nums, int k) {
         int n = nums.length;
         int maxLen = 0;
@@ -24,7 +24,7 @@ public class consecutive_ones_optimal {
     }
 
     public static void main(String[] args) {
-        consecutive_ones_optimal sol = new consecutive_ones_optimal();
+        consecutive_ones_better sol = new consecutive_ones_better();
         int[] input = { 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0 };
         int k = 2;
         int length = sol.longestOnes(input, k);
