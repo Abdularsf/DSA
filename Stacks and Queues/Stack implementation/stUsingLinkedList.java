@@ -1,8 +1,8 @@
-public class usingLinkedList {
+public class stUsingLinkedList {
     private Node top;
     private int size;
 
-    public usingLinkedList() {
+    public stUsingLinkedList() {
         top = null;
         size = 0;
     }
@@ -37,7 +37,7 @@ public class usingLinkedList {
 
     // ✅ MAIN METHOD HERE
     public static void main(String[] args) {
-        usingLinkedList st = new usingLinkedList();
+        stUsingLinkedList st = new stUsingLinkedList();
 
         String[] commands = { "LinkedListStack", "push", "push",
                 "pop", "top", "isEmpty" };

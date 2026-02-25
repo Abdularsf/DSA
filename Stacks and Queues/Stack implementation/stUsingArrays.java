@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class usingArrays {
+public class stUsingArrays {
     private int[] stackArray;
     // private int capacity;
     private int top = -1;

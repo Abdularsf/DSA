@@ -1,10 +1,10 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class usingQueue {
+public class stUsingQueue {
     Queue<Integer> q = new LinkedList<>();
 
-    public usingQueue() {
+    public stUsingQueue() {
 
     }
 
@@ -31,7 +31,7 @@ public class usingQueue {
     }
 
     public static void main(String[] args) {
-        usingQueue st = new usingQueue();
+        stUsingQueue st = new stUsingQueue();
 
         // Array of commands
         String[] commands = { "QueueStack", "push", "push",
