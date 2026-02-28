@@ -1,22 +1,19 @@
-import java.util.Stack;
 
 public class ngeBrute {
     public int[] nextLargerElement(int[] arr) {
         int n = arr.length;
         int[] nge = new int[n];
-        Stack<Integer> st = new Stack<>();
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && st.peek() <= arr[i]) {
-                st.pop();
-            }
-            if (st.isEmpty()) {
-                nge[i] = -1;
-                st.push(arr[i]);
-            } else {
-                nge[i] = st.peek();
-                st.push(arr[i]);
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i] < arr[j]) {
+                    nge[i] = arr[j];
+                    break;
+                } else {
+                    nge[i] = -1;
+                }
             }
         }
+        nge[n - 1] = -1;
         return nge;
     }
 
