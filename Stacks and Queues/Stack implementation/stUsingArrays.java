@@ -5,11 +5,11 @@ public class stUsingArrays {
     // private int capacity;
     private int top = -1;
 
-    public usingArrays() {
+    public stUsingArrays() {
         stackArray = new int[10];
     }
 
-    public usingArrays(int size) {
+    public stUsingArrays(int size) {
         stackArray = new int[size];
     }
 
@@ -39,7 +39,7 @@ public class stUsingArrays {
     }
 
     public static void main(String[] args) {
-        usingArrays stack = new usingArrays();
+        stUsingArrays stack = new stUsingArrays();
         List<String> commands = Arrays.asList("ArrayStack", "push", "push", "top", "pop", "isEmpty");
         List<List<Integer>> inputs = Arrays.asList(Arrays.asList(), Arrays.asList(5), Arrays.asList(10),
                 Arrays.asList(), Arrays.asList(), Arrays.asList());
