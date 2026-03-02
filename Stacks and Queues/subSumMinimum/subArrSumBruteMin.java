@@ -1,4 +1,4 @@
-public class subArrSumBrute {
+public class subArrSumBruteMin {
     public int sumSubarrayMins(int[] arr) {
         int n = arr.length;
         int mod = (int) 1e9 + 7;
@@ -15,7 +15,7 @@ public class subArrSumBrute {
 
     public static void main(String[] args) {
         int[] arr = { 3, 1, 2, 5 };
-        subArrSumBrute sol = new subArrSumBrute();
+        subArrSumBruteMin sol = new subArrSumBruteMin();
         int ans = sol.sumSubarrayMins(arr);
 
         System.out.println("The sum of minimum value in each subarray is: " + ans);

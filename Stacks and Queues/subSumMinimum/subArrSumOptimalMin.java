@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class subArrSumOptimal {
+public class subArrSumOptimalMin {
     public int sumSubarrayMins(int[] arr) {
         int[] nse = findNSE(arr);
         int[] psee = findPSEE(arr);
@@ -55,7 +55,7 @@ public class subArrSumOptimal {
 
     public static void main(String[] args) {
         int[] arr = { 3, 1, 2, 5 };
-        subArrSumOptimal sol = new subArrSumOptimal();
+        subArrSumOptimalMin sol = new subArrSumOptimalMin();
         int ans = sol.sumSubarrayMins(arr);
 
         System.out.println("The sum of minimum value in each subarray is: " + ans);
