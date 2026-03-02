@@ -1,10 +1,10 @@
 import java.util.Stack;
 
-public class minStack {
+public class minStackOptimal {
     private Stack<Integer> st;
     private int min;
 
-    public minStack() {
+    public minStackOptimal() {
         st = new Stack<>();
     }
 
@@ -45,7 +45,7 @@ public class minStack {
     }
 
     public static void main(String[] args) {
-        minStack s = new minStack();
+        minStackOptimal s = new minStackOptimal();
 
         s.push(-2);
         s.push(0);
