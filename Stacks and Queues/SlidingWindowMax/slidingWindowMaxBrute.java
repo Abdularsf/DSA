@@ -3,31 +3,19 @@ import java.util.*;
 public class slidingWindowMaxBrute {
     public List<Integer> maxSlidingWindow(int[] arr, int k) {
 
-        int n = arr.length; // Size of array
+        int n = arr.length;
 
-        // To store the answer
         List<Integer> ans = new ArrayList<>();
-
-        /*
-         * Traverse on the arrary
-         * for valid window
-         */
         for (int i = 0; i <= n - k; i++) {
 
-            // To store the maximum of the window
             int maxi = arr[i];
 
-            // Traverse the window
             for (int j = i; j < i + k; j++) {
-                // Update the maximum
                 maxi = Math.max(maxi, arr[j]);
             }
-
-            // Add the maximum to the result
             ans.add(maxi);
         }
 
-        // Return the stored result
         return ans;
     }
 
