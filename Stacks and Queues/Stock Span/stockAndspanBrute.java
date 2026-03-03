@@ -1,6 +1,5 @@
-import java.util.Stack;
 
-public class stockAndspan {
+public class stockAndspanBrute {
     public int[] stockSpan(int[] arr, int n) {
         int[] ans = new int[n];
 
@@ -23,7 +22,7 @@ public class stockAndspan {
         int n = 7;
         int[] arr = { 120, 100, 60, 80, 90, 110, 115 };
 
-        stockAndspan sol = new stockAndspan();
+        stockAndspanBrute sol = new stockAndspanBrute();
 
         int[] ans = sol.stockSpan(arr, n);
 
