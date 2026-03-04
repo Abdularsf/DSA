@@ -30,16 +30,8 @@ public class celebrityBrute {
                 { 1, 1, 0, 0 },
                 { 0, 1, 1, 0 }
         };
-
-        /*
-         * Creating an instance of
-         * Solution class
-         */
         celebrityBrute sol = new celebrityBrute();
-
-        // Function call to find the index of celebrity
         int ans = sol.celebrity(M);
-
         System.out.println("The index of celebrity is: " + ans);
     }
 
