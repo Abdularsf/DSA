@@ -44,7 +44,7 @@ public class postOrderIterative {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
 
-        postOrderRecursive sol = new postOrderRecursive();
+        postOrderIterative sol = new postOrderIterative();
         // Getting postorder traversal
         List<Integer> result = sol.postorder(root);
 
