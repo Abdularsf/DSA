@@ -1,4 +1,4 @@
-package BinaryTree;
+package BinaryTree.Inorder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ class TreeNode {
 
 }
 
-public class Inorder {
+public class inorderRecursive {
     private void helper(TreeNode root, List<Integer> list) {
         if (root == null)
             return;
@@ -42,7 +42,7 @@ public class Inorder {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
 
-        Inorder sol = new Inorder();
+        inorderRecursive sol = new inorderRecursive();
 
         List<Integer> result = sol.inorder(root);
 
