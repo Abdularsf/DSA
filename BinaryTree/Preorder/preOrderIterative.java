@@ -2,36 +2,24 @@ package BinaryTree.Preorder;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
-// import javax.swing.tree.TreeNode;
-
-class TreeNode {
-    int data;
-    TreeNode left;
-    TreeNode right;
-
-    // Constructor to initialize a node with a value
-    TreeNode(int val) {
-        this.data = val;
-        this.left = null;
-        this.right = null;
-    }
-}
-
-public class preOrderRecursive {
+public class preOrderIterative {
     public List<Integer> preorder(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        helper(root, list);
-        return list;
-    }
-
-    private void helper(TreeNode root, List<Integer> list) {
-        if (root == null) {
-            return;
+        Stack<TreeNode> st = new Stack<>();
+        st.push(root);
+        while (st.isEmpty() == false) {
+            TreeNode node = st.pop();
+            list.add(node.data);
+            if (node.right != null) {
+                st.push(node.right);
+            }
+            if (node.left != null) {
+                st.push(node.left);
+            }
         }
-        list.add(root.data);
-        helper(root.left, list);
-        helper(root.right, list);
+        return list;
     }
 
     public static void main(String[] args) {
