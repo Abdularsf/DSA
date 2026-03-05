@@ -4,6 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+class TreeNode {
+    int data;
+    TreeNode left;
+    TreeNode right;
+
+    // Constructor to initialize a node with a value
+    TreeNode(int val) {
+        this.data = val;
+        this.left = null;
+        this.right = null;
+    }
+}
+
 public class preOrderIterative {
     public List<Integer> preorder(TreeNode root) {
         List<Integer> list = new ArrayList<>();
@@ -28,7 +41,7 @@ public class preOrderIterative {
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-        preOrderRecursive solution = new preOrderRecursive();
+        preOrderIterative solution = new preOrderIterative();
         List<Integer> result = solution.preorder(root);
         System.out.print("Preorder Traversal: ");
         for (int val : result) {
