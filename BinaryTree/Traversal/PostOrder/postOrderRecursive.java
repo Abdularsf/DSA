@@ -1,4 +1,4 @@
-package BinaryTree.PostOrder;
+package BinaryTree.Traversal.PostOrder;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,9 @@
-package BinaryTree.Inorder;
+package BinaryTree.Traversal.Inorder;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
+
+// import javax.swing.tree.TreeNode;
 
 class TreeNode {
     int data;
@@ -14,25 +15,22 @@ class TreeNode {
         left = null;
         right = null;
     }
+
 }
 
-public class inorderIterative {
+public class inorderRecursive {
+    private void helper(TreeNode root, List<Integer> list) {
+        if (root == null)
+            return;
+
+        helper(root.left, list);
+        list.add(root.data);
+        helper(root.right, list);
+    }
+
     public List<Integer> inorder(TreeNode root) {
-        Stack<TreeNode> st = new Stack<>();
         List<Integer> list = new ArrayList<>();
-        TreeNode node = root;
-        while (true) {
-            if (node != null) {
-                st.push(node);
-                node = node.left;
-            } else {
-                if (st.isEmpty())
-                    break;
-                TreeNode elem = st.pop();
-                list.add(elem.data);
-                node = elem.right;
-            }
-        }
+        helper(root, list);
         return list;
     }
 
@@ -44,7 +42,7 @@ public class inorderIterative {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
 
-        inorderIterative sol = new inorderIterative();
+        inorderRecursive sol = new inorderRecursive();
 
         List<Integer> result = sol.inorder(root);
 
