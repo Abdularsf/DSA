@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class moveZerosTosEnd {
+public class moveZerosToEndBrute {
 
     public void moveZeroes(int[] nums) {
         int n = nums.length;
@@ -28,7 +28,7 @@ public class moveZerosTosEnd {
         int[] nums = { 1, 0, 2, 3, 2, 0, 0, 4, 5, 1 };
 
         // Create an instance of Solution class
-        moveZerosTosEnd sol = new moveZerosTosEnd();
+        moveZerosToEndBrute sol = new moveZerosToEndBrute();
         sol.moveZeroes(nums);
 
         System.out.print("Array after moving zeroes: ");
