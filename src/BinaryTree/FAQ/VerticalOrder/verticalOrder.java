@@ -1,4 +1,4 @@
-package BinaryTree.FAQ.VerticalOrder;
+package src.BinaryTree.FAQ.VerticalOrder;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package BinaryTree.FAQ.TopViewBT;
+package src.BinaryTree.FAQ.TopViewBT;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
