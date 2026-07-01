@@ -1,4 +1,4 @@
-package BinaryTree.MediumProbelms.MaxDepth;
+package src.BinaryTree.MediumProbelms.MaxDepth;
 
 class TreeNode {
     int data;

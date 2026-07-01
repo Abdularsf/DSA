@@ -1,4 +1,4 @@
-package Arrays.LogicBuilding.RemoveDup;
+package src.Arrays.LogicBuilding.RemoveDup;
 
 import java.util.Set;
 import java.util.TreeSet;

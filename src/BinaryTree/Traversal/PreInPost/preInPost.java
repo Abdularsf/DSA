@@ -1,4 +1,4 @@
-package BinaryTree.Traversal.PreInPost;
+package src.BinaryTree.Traversal.PreInPost;
 
 import java.util.ArrayList;
 import java.util.Arrays;

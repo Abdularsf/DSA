@@ -1,4 +1,4 @@
-package BinaryTree.FAQ.RightViewBT;
+package src.BinaryTree.FAQ.RightViewBT;
 
 import java.util.ArrayList;
 import java.util.List;

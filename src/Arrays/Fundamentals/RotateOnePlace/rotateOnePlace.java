@@ -1,4 +1,4 @@
-package Arrays.Fundamentals.RotateOnePlace;
+package src.Arrays.Fundamentals.RotateOnePlace;
 
 public class rotateOnePlace {
     public void rotateArrayByOne(int[] nums) {

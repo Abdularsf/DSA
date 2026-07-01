@@ -1,4 +1,4 @@
-package Arrays.Fundamentals.SecondLargest;
+package src.Arrays.Fundamentals.SecondLargest;
 
 import java.util.Arrays;
 

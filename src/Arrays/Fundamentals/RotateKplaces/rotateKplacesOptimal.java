@@ -1,4 +1,4 @@
-package Arrays.Fundamentals.RotateKplaces;
+package src.Arrays.Fundamentals.RotateKplaces;
 
 public class rotateKplacesOptimal {
 

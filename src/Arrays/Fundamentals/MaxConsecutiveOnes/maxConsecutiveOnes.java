@@ -1,4 +1,4 @@
-package Arrays.Fundamentals.MaxConsecutiveOnes;
+package src.Arrays.Fundamentals.MaxConsecutiveOnes;
 
 public class maxConsecutiveOnes {
 

@@ -1,4 +1,4 @@
-package Arrays.Fundamentals.LinearSearchArray;
+package src.Arrays.Fundamentals.LinearSearchArray;
 
 public class LinearSerach {
     public int linearSearch(int nums[], int target) {

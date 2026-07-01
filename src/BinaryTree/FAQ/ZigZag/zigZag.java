@@ -1,4 +1,4 @@
-package BinaryTree.FAQ.ZigZag;
+package src.BinaryTree.FAQ.ZigZag;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package BinaryTree.MediumProbelms.DiameterofTree;
+package src.BinaryTree.MediumProbelms.DiameterofTree;
 
 class TreeNode {
     int data;

@@ -1,4 +1,4 @@
-package BinaryTree.MediumProbelms.MaxPathSum;
+package src.BinaryTree.MediumProbelms.MaxPathSum;
 
 class TreeNode {
     int data;

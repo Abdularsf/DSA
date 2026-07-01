@@ -1,4 +1,4 @@
-package BinaryTree.MediumProbelms.BalancedTree;
+package src.BinaryTree.MediumProbelms.BalancedTree;
 
 class TreeNode {
     int data;

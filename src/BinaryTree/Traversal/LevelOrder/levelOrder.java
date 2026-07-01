@@ -1,4 +1,4 @@
-package BinaryTree.Traversal.LevelOrder;
+package src.BinaryTree.Traversal.LevelOrder;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

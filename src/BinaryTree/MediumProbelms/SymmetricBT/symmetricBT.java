@@ -1,4 +1,4 @@
-package BinaryTree.MediumProbelms.SymmetricBT;
+package src.BinaryTree.MediumProbelms.SymmetricBT;
 
 class TreeNode {
     int data;

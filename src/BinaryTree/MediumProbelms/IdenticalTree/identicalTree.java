@@ -1,4 +1,4 @@
-package BinaryTree.MediumProbelms.IdenticalTree;
+package src.BinaryTree.MediumProbelms.IdenticalTree;
 
 class TreeNode {
     int data;

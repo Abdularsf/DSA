@@ -1,4 +1,4 @@
-package Arrays.LogicBuilding.MissingNumber;
+package src.Arrays.LogicBuilding.MissingNumber;
 
 public class missingNumberOptimalSecond {
     public int missingNumber(int[] nums) {

@@ -1,4 +1,4 @@
-package BinaryTree.Traversal.Inorder;
+package src.BinaryTree.Traversal.Inorder;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Arrays.LogicBuilding.RemoveDup;
+package src.Arrays.LogicBuilding.RemoveDup;
 
 public class removeDupArrOptimal {
 
