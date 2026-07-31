@@ -36,13 +36,8 @@ public class countInversion {
             temp[index++] = arr[right++];
         }
 
-        /*
-         * Copy elements from temp
-         * array back to original array
-         */
         System.arraycopy(temp, 0, arr, low, high - low + 1);
 
-        // Return the count of inversions
         return cnt;
     }
 
